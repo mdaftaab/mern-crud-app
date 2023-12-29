@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.export_btn,.search_btn {
+  background: #479C88;
+  border: none;
+}
+.export_btn:hover,.search_btn:hover{
+  background: #1f856d;
+}
+.dropdown_btn {
+  background: none !important;
+  border: none;
+  color: blue;
+  font-size: 20px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown_btn:hover {
+  color: blue !important;
+}
+.profile_div img{
+  max-width: 56px;
+  border-radius: 50%;
+  border: 1px solid #111;
+}
+.card-profile-stats img{
+  max-width: 86px;
+  border-radius: 50%;
+  border: 1px solid #111;
+}
+
+.email{
+  color: rgb(238,101,122);
+}
+
+.location{
+  color: blue;
+}
+
+.calendar{
+  color: rebeccapurple;
+}
+.img_parent img{
+  width: 35px;
+  border-radius: 50%;
+}
+
+.action{
+  background: none !important;
+  border: none;
+}
+.dropdown-toggle::after{
+  display: none;
+}
+
+.dropdown_btn{
+  background: none !important;
+  border: none;
+}
+
+.dots{
+  font-size: 20px;
+  margin-top: 5px;
+}
